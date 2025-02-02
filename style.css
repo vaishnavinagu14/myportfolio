@@ -1,0 +1,205 @@
+
+    
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: bisque;
+  }
+  /* Style the image container */
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+    position: relative; /* Full viewport width */
+    overflow: hidden; /* Prevent scrolling if the image overflows */
+  }
+  
+  /* Style the image */
+  .bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+  }
+.profilecontainer{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#myp{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-width: 4px;
+    object-fit: cover;
+   
+    
+
+}
+.profilecontainer h2 {
+    margin: 10px 0 5px; /* Adjust margin around the text */
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+}
+
+.profilecontainer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+#myh1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 1em;
+    color: darkred;
+}
+
+    
+
+
+.about-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Limit the width for readability */
+    text-align: center; /* Center-align the text */
+    /* Subtle background color */
+    border-radius: 10px; /* Rounded corners */
+   
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: darkred;
+
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: black;
+}
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between skill items */
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: bisque; /* Light background for a clean look */
+    border-radius: 10px;
+     /* Subtle shadow */
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-item img {
+    width: 150px; /* Adjust the size of the GIF */
+    height: auto;
+    border-radius: 10px; /* Optional: Adds rounded edges */
+    /* Depth effect */
+}
+
+.skill-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+
+
+}
+.skill-text h2{
+    color: darkred;
+}
+.hobbies-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: bisque; /* Same background as My Skills */
+    border-radius: 10px;
+    
+}
+
+.hobbies-section h2 {
+    font-size: 1.4rem;
+    color: darkred; /* Dark heading color */
+    margin-bottom: 20px;
+    text-align: left; /* Align heading with content */
+}
+
+.hobbies-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between GIF and text */
+}
+
+.hobbies-content img {
+    width: 180px; /* Adjust GIF size */
+    height: auto;
+    border-radius: 20px; /* Rounded edges for GIF */
+    
+}
+
+.hobbies-content p {
+    font-size: 1.2rem;
+    color: black; /* Text color */
+    line-height: 1.8; /* Proper line spacing */
+    margin: 0;
+}
+.contact-section {
+    text-align: center;
+    padding: 40px;
+    background-color: bisque;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: darkred;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #00b4d8; /* Vibrant blue color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0077b6; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
